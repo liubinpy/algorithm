@@ -45,7 +45,7 @@ func IsNeg(n int) bool {
 	return n < 0
 }
 
-// Div
+// Div 除法
 func Div(dividend int, divisor int) int {
 	// 先处理特殊情况
 	if divisor == math.MinInt32 && dividend == math.MinInt32 {
