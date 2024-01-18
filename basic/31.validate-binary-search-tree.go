@@ -1,6 +1,8 @@
 package basic
 
 // 验证二叉搜索树 https://leetcode.cn/problems/validate-binary-search-tree/description/
+// 方法1：递归
+// 方法2：中序
 func isValidBST(root *TreeNode) bool {
 	return isBST(root).isBST
 }
